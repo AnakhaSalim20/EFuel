@@ -1,0 +1,20 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+<div class="container" style = "margin-top : 150px">
+      <h2 class = text-center style = "font-family : 'Monotype Corsiva' ; color : #E6120E">About Us</h2>
+      <div class="row">
+          <div class="col-sm-5">
+              <img src="{% static 'images/1.jpg' %}" width=400 height = 400 class="img-responsive">        
+          </div>
+          <div class="col-sm-7" style = "font-weight : bold ; margin-top : 30px">
+            <h3>The Fuel Delivery Management System</h3>
+            <p>Research into energy sources remains a key issue. Over the last 90 years, Fuel has been the leading source of primary research work in fuel science. The scope is broad and includes many topics of increasing interest such as environmental aspects and pollution.</p>
+             
+                <p>The first known use of fuel was the combustion of firewood by Homo erectus nearly two million years ago. Throughout most of human history only fuels derived from plants or animal fat were used by humans. Charcoal, a wood derivative, has been used since at least 6,000 BCE for melting metals. It was only supplanted by coke, derived from coal, as European forests started to become depleted around the 18th century. Charcoal briquettes are now commonly used as a fuel for barbecue cooking.</p>
+          </div>
+      </div>
+  </div>
+  
+
+{% endblock %}
